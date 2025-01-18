@@ -5,7 +5,7 @@
 // @Time       : 2025/01/18 15:48
 // @Description:
 
-
+use chapters::{NewsArticle, Summary, Tweet};
 // fn largest_i32(list: &[i32]) -> &i32 {
 //     let mut larget = &list[0];
 
@@ -110,4 +110,26 @@ fn main() {
 
     let p3 = p1.mixup(p2);
     println!("p3.x = {}, p3.y = {}", p3.x, p3.y);
+
+    let tweet = Tweet {
+        username: String::from("horse_ebooks"),
+        content: String::from(
+            "of course, as you probably already know, people",
+        ),
+        reply: false,
+        retweet: false,
+    };
+
+    println!("1 new tweet: {}", tweet.summarize());
+
+    let article = NewsArticle {
+        headline: String::from("Penguins win the Stanley Cup Championship!"),
+        location: String::from("Pittsburgh, PA, USA"),
+        author: String::from("Iceburgh"),
+        content: String::from(
+            "The Pittsburgh Penguins once again are the best \
+             hockey team in the NHL.",
+        ),
+    };
+    println!("New article available! {}", article.summarize());
 }
