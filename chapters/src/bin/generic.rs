@@ -5,6 +5,7 @@
 // @Time       : 2025/01/18 15:48
 // @Description:
 
+use std::fmt::Display
 use chapters::{NewsArticle, Summary, Tweet};
 // fn largest_i32(list: &[i32]) -> &i32 {
 //     let mut larget = &list[0];
@@ -84,6 +85,33 @@ impl<X1, Y1> Point2<X1, Y1> {
 }
 
 
+fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {  // 'a is a lifetime parameter
+    if x.len() > y.len() {
+        x
+    } else {
+        y
+    }  // x and y in different scope but the same lifetime
+}
+
+
+struct ImportantExcept<'a> {
+    part: &'a str,
+}
+
+
+fn longest_with_an_announcement<'a, T>(
+    x: &'a str,
+    y: &'a str,
+    ann: T,
+) -> &'a str where T: Display {
+        println!("Announcement! {}", ann);
+        if x.len() > y.len() {
+            x
+        } else {
+            y
+    }
+}
+
 fn main() {
     let number_list = vec![34, 50, 25, 100, 65];
     // let mut largest = &number_list[0];
@@ -132,4 +160,32 @@ fn main() {
         ),
     };
     println!("New article available! {}", article.summarize());
+
+    let string1 = String::from("abcd");
+    let string2 = "xyz";
+
+    let result = longest(string1.as_str(), string2);
+    println!("The longest string is {}", result);
+
+    let string1 = String::from("long string is long");
+
+    {
+        let string2 = String::from("xyz");
+        let result  = longest(string1.as_str(), &string2.as_str());
+        println!("The longest string is {result}")
+    }
+
+
+    let novel = String::from("Call me Ishmael. Some years ago...");
+    let first_sentence = novel.split('.').next().unwrap();
+    let i = ImportantExcept {
+        part: first_sentence,
+    };
+    println!("{}", i.part);
+
+    {
+        let s: &'static str = "I have a static lifetime.";
+        println!("{}", s);
+    }
+    // println!("{}", s); // {} is scope, scope is not equal to lifetime
 }
