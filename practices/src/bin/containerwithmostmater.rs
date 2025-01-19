@@ -15,10 +15,13 @@
 // # Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
 
 use std::cmp::{min, max};
-use practices::{Solution, MaxArea};
+use practices::Solution;
 
+pub trait MaxArea {
+    fn max_area(height: Vec<i32>) -> i32;
+}
 
-impl MaxArea for Solution {  // trait must have a default implementation otherwise it must in the same File
+impl MaxArea for Solution {
     fn max_area(height: Vec<i32>) -> i32 {
         let mut left = 0;
         let mut right = height.len() as i32 - 1;
