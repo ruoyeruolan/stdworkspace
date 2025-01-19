@@ -5,8 +5,10 @@
 // @Time       : 2025/01/18 15:48
 // @Description:
 
-use std::fmt::Display
+use std::fmt::Display;
 use chapters::{NewsArticle, Summary, Tweet};
+
+// use std::cmp::{min, max};
 // fn largest_i32(list: &[i32]) -> &i32 {
 //     let mut larget = &list[0];
 
@@ -112,6 +114,8 @@ fn longest_with_an_announcement<'a, T>(
     }
 }
 
+
+
 fn main() {
     let number_list = vec![34, 50, 25, 100, 65];
     // let mut largest = &number_list[0];
@@ -121,6 +125,7 @@ fn main() {
     //         largest = number;
     //     }
     // }
+    number_list.len();
     let largest = largest(&number_list);
     println!("The largest number is {}", largest);
 

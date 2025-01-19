@@ -11,6 +11,10 @@ name = "collections"
 version = "0.1.0"
 
 [[package]]
+name = "practices"
+version = "0.1.0"
+
+[[package]]
 name = "stdworkspace"
 version = "0.1.0"
 
