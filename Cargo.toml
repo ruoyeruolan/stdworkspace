@@ -6,7 +6,7 @@ edition = "2021"
 [workspace]
 members = [ "adder",
     "chapters", 
-    "collections", 
+    "collections", "minigrep", 
     "practices",
     "string",
 ]
