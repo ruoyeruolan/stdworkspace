@@ -14,7 +14,7 @@ pub trait GridGame {
 
 impl GridGame for Solution {
     fn grid_game(grid: Vec<Vec<i32>>) -> i64 {
-        let mut firstrowsum = grid[0].iter().into_iter().map(|&x| x as i64).sum();
+        let mut firstrowsum = grid[0].iter().map(|&x| x as i64).sum();
         let mut secondrowsum: i64 = 0;
         let mut result = i64::MAX;
 
