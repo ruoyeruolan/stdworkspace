@@ -1,0 +1,1 @@
+/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/gridgame: /Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/gridgame.rs /Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/lib.rs
