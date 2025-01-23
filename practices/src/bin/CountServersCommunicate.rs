@@ -23,8 +23,8 @@ impl CountServers for Solution {
             if row_sum > 1 {
                 count += row_sum;
             } else if row_sum == 1 {
-                let col = grid[row].iter().position(|&x| x == 1).unwrap();
-                let col_sum: i32 = (0..num_rows).map(|i| grid[i][col]).sum();
+                let col = grid[row].iter().position(|&x| x == 1).unwrap(); // find the index of 1 in the row
+                let col_sum: i32 = (0..num_rows).map(|i| grid[i][col]).sum(); // sum of the column
                 if col_sum > 1 {
                     count += 1;
                 }
