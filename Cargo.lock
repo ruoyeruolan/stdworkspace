@@ -23,6 +23,10 @@ name = "minigrep"
 version = "0.1.0"
 
 [[package]]
+name = "pointers"
+version = "0.1.0"
+
+[[package]]
 name = "practices"
 version = "0.1.0"
 
