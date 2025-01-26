@@ -6,7 +6,7 @@ edition = "2021"
 [workspace]
 members = [ "adder",
     "chapters", 
-    "collections", "drop", "functionallaguage", "minigrep", "pointers", 
+    "collections", "concurrency", "drop", "functionallaguage", "minigrep", "oop", "pointers", 
     "practices",
     "string",
 ]

@@ -15,6 +15,10 @@ name = "collections"
 version = "0.1.0"
 
 [[package]]
+name = "concurrency"
+version = "0.1.0"
+
+[[package]]
 name = "drop"
 version = "0.1.0"
 
@@ -24,6 +28,10 @@ version = "0.1.0"
 
 [[package]]
 name = "minigrep"
+version = "0.1.0"
+
+[[package]]
+name = "oop"
 version = "0.1.0"
 
 [[package]]
