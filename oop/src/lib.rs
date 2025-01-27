@@ -5,7 +5,9 @@
 // @Time       : 2025/01/26 15:42
 // @Description:
 
-use std::option;
+mod blog;
+
+// use gui::{Button, Screen};
 
 pub struct AveragedCollection {
     list: Vec<i32>,
@@ -36,6 +38,34 @@ impl AveragedCollection {
     fn update_average(&mut self) {
         let total: i32 = self.list.iter().sum();
         self.average = total as f64 / self.list.len() as f64;
+    }
+}
+
+pub trait Draw {
+    fn draw(&self);
+}
+
+pub struct Screen {
+    pub components: Vec<Box<dyn Draw>>,
+}
+
+impl Screen {
+    pub fn run(&self) {
+        for component in self.components.iter() {
+            component.draw();
+        }
+    }
+}
+
+pub struct Button {
+    pub width: u32,
+    pub height: u32,
+    pub label: String,
+}
+
+impl Draw for Button {
+    fn draw(&self) {
+        unimplemented!("");
     }
 }
 
