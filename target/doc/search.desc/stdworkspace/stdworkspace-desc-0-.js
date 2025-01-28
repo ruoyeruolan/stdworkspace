@@ -1,1 +1,0 @@
-searchState.loadedDescShard("stdworkspace", 0, "")

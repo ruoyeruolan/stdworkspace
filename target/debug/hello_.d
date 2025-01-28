@@ -1,0 +1,1 @@
+/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/hello_: /Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_/src/lib.rs /Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_/src/main.rs

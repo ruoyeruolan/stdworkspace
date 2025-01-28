@@ -31,6 +31,14 @@ name = "functionallaguage"
 version = "0.1.0"
 
 [[package]]
+name = "hello"
+version = "0.1.0"
+
+[[package]]
+name = "hello_"
+version = "0.1.0"
+
+[[package]]
 name = "minigrep"
 version = "0.1.0"
 
