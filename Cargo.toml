@@ -4,9 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [workspace]
-members = [ "adder",
+members = [ "adder", "advancefeatures",
     "chapters", 
-    "collections", "concurrency", "drop", "functionallaguage", "minigrep", "oop", "pointers", 
+    "collections", "concurrency", "drop", "functionallaguage", "minigrep", "oop", "patterns", "pointers", 
     "practices",
     "string",
 ]
