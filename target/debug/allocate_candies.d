@@ -1,0 +1,1 @@
+/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/allocate_candies: /Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/allocate_candies.rs /Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/lib.rs
