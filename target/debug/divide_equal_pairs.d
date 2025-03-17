@@ -1,0 +1,1 @@
+/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/divide_equal_pairs: /Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/divide_equal_pairs.rs /Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/lib.rs
