@@ -1,0 +1,2188 @@
+   0.008652666s  INFO prepare_target{force=false package_id=adder v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/adder) target="adder"}: cargo::core::compiler::fingerprint: fingerprint error for adder v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/adder)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("adder", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/adder/src/lib.rs", Edition2021) }
+   0.008905750s  INFO prepare_target{force=false package_id=adder v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/adder) target="adder"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/adder-6cda1b19c554ef44/lib-adder`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.012322666s  INFO prepare_target{force=false package_id=adder v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/adder) target="adder"}: cargo::core::compiler::fingerprint: fingerprint error for adder v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/adder)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("adder", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/adder/src/lib.rs", Edition2021) }
+   0.012333208s  INFO prepare_target{force=false package_id=adder v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/adder) target="adder"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/adder-b5dbf74b85cdd932/test-lib-adder`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.012520083s  INFO prepare_target{force=false package_id=advancefeatures v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/advancefeatures) target="advancefeatures"}: cargo::core::compiler::fingerprint: fingerprint error for advancefeatures v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/advancefeatures)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("advancefeatures", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/advancefeatures/src/lib.rs", Edition2021) }
+   0.012526541s  INFO prepare_target{force=false package_id=advancefeatures v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/advancefeatures) target="advancefeatures"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/advancefeatures-033193c48795c1ab/lib-advancefeatures`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.012693250s  INFO prepare_target{force=false package_id=advancefeatures v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/advancefeatures) target="advancefeatures"}: cargo::core::compiler::fingerprint: fingerprint error for advancefeatures v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/advancefeatures)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("advancefeatures", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/advancefeatures/src/lib.rs", Edition2021) }
+   0.012699833s  INFO prepare_target{force=false package_id=advancefeatures v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/advancefeatures) target="advancefeatures"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/advancefeatures-05c62630db166153/test-lib-advancefeatures`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.012869416s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="chapters"}: cargo::core::compiler::fingerprint: fingerprint error for chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("chapters", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters/src/lib.rs", Edition2021) }
+   0.012877416s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="chapters"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/chapters-5c9dfaf5c716e38d/lib-chapters`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.013178000s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="chapters"}: cargo::core::compiler::fingerprint: fingerprint error for chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("chapters", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters/src/lib.rs", Edition2021) }
+   0.013190500s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="chapters"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/chapters-a969b1dac54a4081/test-lib-chapters`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.013355375s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="chapters"}: cargo::core::compiler::fingerprint: fingerprint error for chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters)/Check { test: false }/TargetInner { name: "chapters", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters/src/main.rs", Edition2021) }
+   0.013361375s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="chapters"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/chapters-8d23b35b93ce5060/bin-chapters`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.013524250s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="chapters"}: cargo::core::compiler::fingerprint: fingerprint error for chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters)/Check { test: true }/TargetInner { name: "chapters", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters/src/main.rs", Edition2021) }
+   0.013529750s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="chapters"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/chapters-018cb38d6bc44a17/test-bin-chapters`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.013690208s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="errorhandling"}: cargo::core::compiler::fingerprint: fingerprint error for chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters)/Check { test: false }/TargetInner { name: "errorhandling", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters/src/bin/errorhandling.rs", Edition2021) }
+   0.013695666s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="errorhandling"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/chapters-38ac62d884fc67b4/bin-errorhandling`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.013846583s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="errorhandling"}: cargo::core::compiler::fingerprint: fingerprint error for chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters)/Check { test: true }/TargetInner { name: "errorhandling", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters/src/bin/errorhandling.rs", Edition2021) }
+   0.013851750s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="errorhandling"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/chapters-e637de1bc88b01c7/test-bin-errorhandling`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.014004666s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="generic"}: cargo::core::compiler::fingerprint: fingerprint error for chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters)/Check { test: false }/TargetInner { name: "generic", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters/src/bin/generic.rs", Edition2021) }
+   0.014009916s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="generic"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/chapters-ddceb5deb8f2cf64/bin-generic`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.014162541s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="generic"}: cargo::core::compiler::fingerprint: fingerprint error for chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters)/Check { test: true }/TargetInner { name: "generic", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters/src/bin/generic.rs", Edition2021) }
+   0.014167666s  INFO prepare_target{force=false package_id=chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters) target="generic"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/chapters-41ceb75ea7887f9d/test-bin-generic`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.014313333s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="collections"}: cargo::core::compiler::fingerprint: fingerprint error for collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections)/Check { test: false }/TargetInner { name: "collections", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections/src/main.rs", Edition2021) }
+   0.014318583s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="collections"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/collections-b56183b83abb7db4/bin-collections`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.014458250s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="collections"}: cargo::core::compiler::fingerprint: fingerprint error for collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections)/Check { test: true }/TargetInner { name: "collections", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections/src/main.rs", Edition2021) }
+   0.014463333s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="collections"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/collections-aa3dbd4ecd7f42f2/test-bin-collections`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.014583666s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="hashmaps"}: cargo::core::compiler::fingerprint: fingerprint error for collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections)/Check { test: false }/TargetInner { name: "hashmaps", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections/src/bin/hashmaps.rs", Edition2021) }
+   0.014588625s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="hashmaps"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/collections-74a3b4d3b838c4fd/bin-hashmaps`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.014717875s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="hashmaps"}: cargo::core::compiler::fingerprint: fingerprint error for collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections)/Check { test: true }/TargetInner { name: "hashmaps", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections/src/bin/hashmaps.rs", Edition2021) }
+   0.014723041s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="hashmaps"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/collections-deb7e3b40e390e43/test-bin-hashmaps`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.014847708s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="strings"}: cargo::core::compiler::fingerprint: fingerprint error for collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections)/Check { test: false }/TargetInner { name: "strings", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections/src/bin/strings.rs", Edition2021) }
+   0.014852833s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="strings"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/collections-97e951b856c741f0/bin-strings`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.014981833s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="strings"}: cargo::core::compiler::fingerprint: fingerprint error for collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections)/Check { test: true }/TargetInner { name: "strings", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections/src/bin/strings.rs", Edition2021) }
+   0.014987041s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="strings"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/collections-3aea0ac26669f92c/test-bin-strings`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.015104625s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="vectors"}: cargo::core::compiler::fingerprint: fingerprint error for collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections)/Check { test: false }/TargetInner { name: "vectors", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections/src/bin/vectors.rs", Edition2021) }
+   0.015109791s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="vectors"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/collections-cf69043d3efb3b69/bin-vectors`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.015241625s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="vectors"}: cargo::core::compiler::fingerprint: fingerprint error for collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections)/Check { test: true }/TargetInner { name: "vectors", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections/src/bin/vectors.rs", Edition2021) }
+   0.015246791s  INFO prepare_target{force=false package_id=collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections) target="vectors"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/collections-11a3c1cdce831f0b/test-bin-vectors`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.015408708s  INFO prepare_target{force=false package_id=concurrency v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/concurrency) target="concurrency"}: cargo::core::compiler::fingerprint: fingerprint error for concurrency v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/concurrency)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("concurrency", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/concurrency/src/lib.rs", Edition2021) }
+   0.015414708s  INFO prepare_target{force=false package_id=concurrency v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/concurrency) target="concurrency"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/concurrency-8f0398d20c09c4b4/lib-concurrency`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.015575333s  INFO prepare_target{force=false package_id=concurrency v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/concurrency) target="concurrency"}: cargo::core::compiler::fingerprint: fingerprint error for concurrency v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/concurrency)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("concurrency", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/concurrency/src/lib.rs", Edition2021) }
+   0.015581041s  INFO prepare_target{force=false package_id=concurrency v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/concurrency) target="concurrency"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/concurrency-09fd7cdb9e0a6258/test-lib-concurrency`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.015711208s  INFO prepare_target{force=false package_id=drop v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/drop) target="drop"}: cargo::core::compiler::fingerprint: fingerprint error for drop v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/drop)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("drop", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/drop/src/lib.rs", Edition2021) }
+   0.015717041s  INFO prepare_target{force=false package_id=drop v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/drop) target="drop"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/drop-14c72bf5ae5f5667/lib-drop`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.015862583s  INFO prepare_target{force=false package_id=drop v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/drop) target="drop"}: cargo::core::compiler::fingerprint: fingerprint error for drop v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/drop)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("drop", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/drop/src/lib.rs", Edition2021) }
+   0.015868250s  INFO prepare_target{force=false package_id=drop v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/drop) target="drop"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/drop-9fa916990e29579e/test-lib-drop`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.016023125s  INFO prepare_target{force=false package_id=functionallaguage v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage) target="functionallaguage"}: cargo::core::compiler::fingerprint: fingerprint error for functionallaguage v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("functionallaguage", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage/src/lib.rs", Edition2021) }
+   0.016029416s  INFO prepare_target{force=false package_id=functionallaguage v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage) target="functionallaguage"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/functionallaguage-aa0e921ac367b0d2/lib-functionallaguage`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.016187708s  INFO prepare_target{force=false package_id=functionallaguage v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage) target="functionallaguage"}: cargo::core::compiler::fingerprint: fingerprint error for functionallaguage v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("functionallaguage", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage/src/lib.rs", Edition2021) }
+   0.016193916s  INFO prepare_target{force=false package_id=functionallaguage v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage) target="functionallaguage"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/functionallaguage-df6dacbe2f237785/test-lib-functionallaguage`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.016352333s  INFO prepare_target{force=false package_id=functionallaguage v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage) target="functionallaguage"}: cargo::core::compiler::fingerprint: fingerprint error for functionallaguage v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage)/Check { test: false }/TargetInner { name: "functionallaguage", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage/src/main.rs", Edition2021) }
+   0.016357791s  INFO prepare_target{force=false package_id=functionallaguage v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage) target="functionallaguage"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/functionallaguage-8b0c0bb3f538678e/bin-functionallaguage`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.016524166s  INFO prepare_target{force=false package_id=functionallaguage v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage) target="functionallaguage"}: cargo::core::compiler::fingerprint: fingerprint error for functionallaguage v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage)/Check { test: true }/TargetInner { name: "functionallaguage", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage/src/main.rs", Edition2021) }
+   0.016529583s  INFO prepare_target{force=false package_id=functionallaguage v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage) target="functionallaguage"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/functionallaguage-5871f1bcbc5d7fad/test-bin-functionallaguage`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.016718708s  INFO prepare_target{force=false package_id=hello v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello) target="hello"}: cargo::core::compiler::fingerprint: fingerprint error for hello v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hello", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello/src/lib.rs", Edition2021) }
+   0.016725875s  INFO prepare_target{force=false package_id=hello v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello) target="hello"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/hello-0ddd1f4416be18d8/lib-hello`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.016864291s  INFO prepare_target{force=false package_id=hello v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello) target="hello"}: cargo::core::compiler::fingerprint: fingerprint error for hello v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("hello", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello/src/lib.rs", Edition2021) }
+   0.016869833s  INFO prepare_target{force=false package_id=hello v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello) target="hello"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/hello-f130d75ddc78acda/test-lib-hello`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.017023458s  INFO prepare_target{force=false package_id=hello v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello) target="hello"}: cargo::core::compiler::fingerprint: fingerprint error for hello v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello)/Check { test: false }/TargetInner { name: "hello", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello/src/main.rs", Edition2021) }
+   0.017028750s  INFO prepare_target{force=false package_id=hello v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello) target="hello"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/hello-e1f490569031051c/bin-hello`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.017191750s  INFO prepare_target{force=false package_id=hello v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello) target="hello"}: cargo::core::compiler::fingerprint: fingerprint error for hello v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello)/Check { test: true }/TargetInner { name: "hello", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello/src/main.rs", Edition2021) }
+   0.017197000s  INFO prepare_target{force=false package_id=hello v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello) target="hello"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/hello-dc24f9bef8a7b1c1/test-bin-hello`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.017363000s  INFO prepare_target{force=false package_id=hello_ v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_) target="hello_"}: cargo::core::compiler::fingerprint: fingerprint error for hello_ v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hello_", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_/src/lib.rs", Edition2021) }
+   0.017368541s  INFO prepare_target{force=false package_id=hello_ v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_) target="hello_"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/hello_-bae466e176c7eaf8/lib-hello_`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.017499958s  INFO prepare_target{force=false package_id=hello_ v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_) target="hello_"}: cargo::core::compiler::fingerprint: fingerprint error for hello_ v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("hello_", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_/src/lib.rs", Edition2021) }
+   0.017505291s  INFO prepare_target{force=false package_id=hello_ v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_) target="hello_"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/hello_-0db829917e44d904/test-lib-hello_`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.017627041s  INFO prepare_target{force=false package_id=hello_ v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_) target="hello_"}: cargo::core::compiler::fingerprint: fingerprint error for hello_ v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_)/Check { test: false }/TargetInner { name: "hello_", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_/src/main.rs", Edition2021) }
+   0.017632083s  INFO prepare_target{force=false package_id=hello_ v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_) target="hello_"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/hello_-464e46735ba09f61/bin-hello_`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.017776750s  INFO prepare_target{force=false package_id=hello_ v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_) target="hello_"}: cargo::core::compiler::fingerprint: fingerprint error for hello_ v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_)/Check { test: true }/TargetInner { name: "hello_", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_/src/main.rs", Edition2021) }
+   0.017782083s  INFO prepare_target{force=false package_id=hello_ v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_) target="hello_"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/hello_-38452f7a48eba2a0/test-bin-hello_`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.017924041s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("minigrep", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep/src/lib.rs", Edition2021) }
+   0.017929666s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/minigrep-25bbfd3e8c0b8454/lib-minigrep`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.018071625s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("minigrep", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep/src/lib.rs", Edition2021) }
+   0.018077083s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/minigrep-310bab609709498e/test-lib-minigrep`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.018217458s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep)/Check { test: false }/TargetInner { name: "minigrep", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep/src/main.rs", Edition2021) }
+   0.018222833s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/minigrep-49e00fcb6b4e6444/bin-minigrep`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.018390375s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep) target="minigrep"}: cargo::core::compiler::fingerprint: fingerprint error for minigrep v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep)/Check { test: true }/TargetInner { name: "minigrep", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep/src/main.rs", Edition2021) }
+   0.018395666s  INFO prepare_target{force=false package_id=minigrep v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep) target="minigrep"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/minigrep-0535640a51100895/test-bin-minigrep`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.018558458s  INFO prepare_target{force=false package_id=oop v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/oop) target="oop"}: cargo::core::compiler::fingerprint: fingerprint error for oop v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/oop)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("oop", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/oop/src/lib.rs", Edition2021) }
+   0.018563958s  INFO prepare_target{force=false package_id=oop v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/oop) target="oop"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/oop-7a50b854cede8fcc/lib-oop`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.018714333s  INFO prepare_target{force=false package_id=oop v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/oop) target="oop"}: cargo::core::compiler::fingerprint: fingerprint error for oop v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/oop)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("oop", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/oop/src/lib.rs", Edition2021) }
+   0.018719833s  INFO prepare_target{force=false package_id=oop v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/oop) target="oop"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/oop-95abb61693e9649c/test-lib-oop`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.018843541s  INFO prepare_target{force=false package_id=patterns v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/patterns) target="patterns"}: cargo::core::compiler::fingerprint: fingerprint error for patterns v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/patterns)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("patterns", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/patterns/src/lib.rs", Edition2021) }
+   0.018848875s  INFO prepare_target{force=false package_id=patterns v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/patterns) target="patterns"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/patterns-c8f942540fadbddb/lib-patterns`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.018964208s  INFO prepare_target{force=false package_id=patterns v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/patterns) target="patterns"}: cargo::core::compiler::fingerprint: fingerprint error for patterns v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/patterns)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("patterns", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/patterns/src/lib.rs", Edition2021) }
+   0.018969500s  INFO prepare_target{force=false package_id=patterns v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/patterns) target="patterns"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/patterns-7ffebec91621e953/test-lib-patterns`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.019087791s  INFO prepare_target{force=false package_id=pointers v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers) target="pointers"}: cargo::core::compiler::fingerprint: fingerprint error for pointers v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("pointers", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers/src/lib.rs", Edition2021) }
+   0.019093541s  INFO prepare_target{force=false package_id=pointers v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers) target="pointers"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/pointers-30f9301a5c5527b0/lib-pointers`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.019226541s  INFO prepare_target{force=false package_id=pointers v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers) target="pointers"}: cargo::core::compiler::fingerprint: fingerprint error for pointers v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("pointers", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers/src/lib.rs", Edition2021) }
+   0.019232208s  INFO prepare_target{force=false package_id=pointers v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers) target="pointers"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/pointers-f77aad7ff3f71365/test-lib-pointers`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.019360916s  INFO prepare_target{force=false package_id=pointers v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers) target="pointers"}: cargo::core::compiler::fingerprint: fingerprint error for pointers v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers)/Check { test: false }/TargetInner { name: "pointers", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers/src/main.rs", Edition2021) }
+   0.019366041s  INFO prepare_target{force=false package_id=pointers v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers) target="pointers"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/pointers-079c096a49556177/bin-pointers`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.019506250s  INFO prepare_target{force=false package_id=pointers v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers) target="pointers"}: cargo::core::compiler::fingerprint: fingerprint error for pointers v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers)/Check { test: true }/TargetInner { name: "pointers", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers/src/main.rs", Edition2021) }
+   0.019511625s  INFO prepare_target{force=false package_id=pointers v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers) target="pointers"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/pointers-b28002bad0e6dbc8/test-bin-pointers`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.019650333s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="practices"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { ..: lib_target("practices", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/lib.rs", Edition2021) }
+   0.019655625s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="practices"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-3e96998d12445d51/lib-practices`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.019775916s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="practices"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { ..: lib_target("practices", ["lib"], "/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/lib.rs", Edition2021) }
+   0.019781375s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="practices"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-421def0d45c8447e/test-lib-practices`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.019912541s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="CountServersCommunicate"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "CountServersCommunicate", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/CountServersCommunicate.rs", Edition2021) }
+   0.019918000s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="CountServersCommunicate"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-5796fb95cd4bddac/bin-CountServersCommunicate`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.020058625s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="CountServersCommunicate"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "CountServersCommunicate", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/CountServersCommunicate.rs", Edition2021) }
+   0.020063708s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="CountServersCommunicate"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-0480ff47e8bbf487/test-bin-CountServersCommunicate`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.020201916s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="FindDifferentBinaryString"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "FindDifferentBinaryString", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/FindDifferentBinaryString.rs", Edition2021) }
+   0.020208541s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="FindDifferentBinaryString"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-7e4871c3d4032231/bin-FindDifferentBinaryString`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.020381875s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="FindDifferentBinaryString"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "FindDifferentBinaryString", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/FindDifferentBinaryString.rs", Edition2021) }
+   0.020387375s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="FindDifferentBinaryString"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-edf62a266d332231/test-bin-FindDifferentBinaryString`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.020555291s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="allocate_candies"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "allocate_candies", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/allocate_candies.rs", Edition2021) }
+   0.020560541s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="allocate_candies"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-e9b98f066655d85b/bin-allocate_candies`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.020735916s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="allocate_candies"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "allocate_candies", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/allocate_candies.rs", Edition2021) }
+   0.020746166s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="allocate_candies"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-912786a934d2433a/test-bin-allocate_candies`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.020925750s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="apply_operations"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "apply_operations", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/apply_operations.rs", Edition2021) }
+   0.020931125s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="apply_operations"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-be1b306edaf68ad5/bin-apply_operations`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.021079833s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="apply_operations"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "apply_operations", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/apply_operations.rs", Edition2021) }
+   0.021085250s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="apply_operations"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-af485533c6492e4c/test-bin-apply_operations`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.021231875s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="car_repair"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "car_repair", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/car_repair.rs", Edition2021) }
+   0.021236916s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="car_repair"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-2eb34b33725392f5/bin-car_repair`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.021396208s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="car_repair"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "car_repair", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/car_repair.rs", Edition2021) }
+   0.021401500s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="car_repair"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-17455e6e143b5f74/test-bin-car_repair`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.021582208s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="check_powers_of_three"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "check_powers_of_three", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/check_powers_of_three.rs", Edition2021) }
+   0.021587625s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="check_powers_of_three"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-34329310634575a1/bin-check_powers_of_three`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.021744875s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="check_powers_of_three"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "check_powers_of_three", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/check_powers_of_three.rs", Edition2021) }
+   0.021750291s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="check_powers_of_three"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-feb31323d75bdb58/test-bin-check_powers_of_three`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.021915708s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="cleardigital"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "cleardigital", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/cleardigital.rs", Edition2021) }
+   0.021920541s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="cleardigital"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-5ec92ce635ceab76/bin-cleardigital`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.022092166s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="cleardigital"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "cleardigital", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/cleardigital.rs", Edition2021) }
+   0.022097708s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="cleardigital"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-d695709ceb4d3121/test-bin-cleardigital`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.022250291s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="containerwithmostmater"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "containerwithmostmater", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/containerwithmostmater.rs", Edition2021) }
+   0.022255416s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="containerwithmostmater"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-4143d8ae8c24e2bd/bin-containerwithmostmater`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.022421416s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="containerwithmostmater"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "containerwithmostmater", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/containerwithmostmater.rs", Edition2021) }
+   0.022426791s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="containerwithmostmater"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-7d0d7301a9f15ebe/test-bin-containerwithmostmater`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.022602833s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="countBadPairs"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "countBadPairs", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/countBadPairs.rs", Edition2021) }
+   0.022608000s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="countBadPairs"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-b98c4c9e54a94074/bin-countBadPairs`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.022787166s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="countBadPairs"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "countBadPairs", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/countBadPairs.rs", Edition2021) }
+   0.022792416s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="countBadPairs"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-3dc59a85392016ab/test-bin-countBadPairs`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.023044333s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="distinctcolor"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "distinctcolor", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/distinctcolor.rs", Edition2021) }
+   0.023053208s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="distinctcolor"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-e043f9c414181723/bin-distinctcolor`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.023242208s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="distinctcolor"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "distinctcolor", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/distinctcolor.rs", Edition2021) }
+   0.023249500s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="distinctcolor"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-c9feac1a5c332d30/test-bin-distinctcolor`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.023407916s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="divide_equal_pairs"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "divide_equal_pairs", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/divide_equal_pairs.rs", Edition2021) }
+   0.023412000s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="divide_equal_pairs"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-c1f12163e48f8e3f/bin-divide_equal_pairs`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.023568666s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="divide_equal_pairs"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "divide_equal_pairs", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/divide_equal_pairs.rs", Edition2021) }
+   0.023573333s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="divide_equal_pairs"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-a8ebaeeebecfebf7/test-bin-divide_equal_pairs`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.023723625s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="gridgame"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "gridgame", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/gridgame.rs", Edition2021) }
+   0.023727916s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="gridgame"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-3f188e18afe3854c/bin-gridgame`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.023879291s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="gridgame"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "gridgame", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/gridgame.rs", Edition2021) }
+   0.023883375s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="gridgame"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-d08cc5b403ffdd4e/test-bin-gridgame`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.024029833s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="house_robber"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "house_robber", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/house_robber.rs", Edition2021) }
+   0.024033625s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="house_robber"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-09b1282c800ce220/bin-house_robber`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.024212500s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="house_robber"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "house_robber", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/house_robber.rs", Edition2021) }
+   0.024216083s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="house_robber"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-b7be43442f4f8faf/test-bin-house_robber`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.024403083s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="integer2roman"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "integer2roman", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/integer2roman.rs", Edition2021) }
+   0.024407041s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="integer2roman"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-3fec8e062a117feb/bin-integer2roman`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.024586833s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="integer2roman"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "integer2roman", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/integer2roman.rs", Edition2021) }
+   0.024590375s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="integer2roman"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-afb8795914ee41e4/test-bin-integer2roman`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.024781666s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="lexicographicallySmallestArray"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "lexicographicallySmallestArray", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/lexicographicallySmallestArray.rs", Edition2021) }
+   0.024785500s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="lexicographicallySmallestArray"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-e9a3c43a9de39ed7/bin-lexicographicallySmallestArray`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.024984666s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="lexicographicallySmallestArray"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "lexicographicallySmallestArray", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/lexicographicallySmallestArray.rs", Edition2021) }
+   0.024988875s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="lexicographicallySmallestArray"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-653fef665c0fef2f/test-bin-lexicographicallySmallestArray`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.025160333s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="minOperation"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "minOperation", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/minOperation.rs", Edition2021) }
+   0.025164125s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="minOperation"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-5343dd3e160ad0bc/bin-minOperation`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.025343125s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="minOperation"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "minOperation", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/minOperation.rs", Edition2021) }
+   0.025346916s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="minOperation"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-5bf90019034ae95e/test-bin-minOperation`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.025513791s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="number_of_substrings"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "number_of_substrings", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/number_of_substrings.rs", Edition2021) }
+   0.025517833s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="number_of_substrings"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-1248bdead109cea9/bin-number_of_substrings`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.025699208s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="number_of_substrings"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "number_of_substrings", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/bin/number_of_substrings.rs", Edition2021) }
+   0.025703208s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="number_of_substrings"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-4616890bc89d172a/test-bin-number_of_substrings`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.025878958s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="practices"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: false }/TargetInner { name: "practices", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/main.rs", Edition2021) }
+   0.025882458s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="practices"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-3823ad5ea83d72a1/bin-practices`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.026062541s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="practices"}: cargo::core::compiler::fingerprint: fingerprint error for practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)/Check { test: true }/TargetInner { name: "practices", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices/src/main.rs", Edition2021) }
+   0.026065958s  INFO prepare_target{force=false package_id=practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices) target="practices"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/practices-34a533e62c6b09ba/test-bin-practices`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.026252291s  INFO prepare_target{force=false package_id=stdworkspace v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment) target="stdworkspace"}: cargo::core::compiler::fingerprint: fingerprint error for stdworkspace v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment)/Check { test: false }/TargetInner { name: "stdworkspace", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/src/main.rs", Edition2021) }
+   0.026256166s  INFO prepare_target{force=false package_id=stdworkspace v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment) target="stdworkspace"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/stdworkspace-cc3a2bd27a6c470e/bin-stdworkspace`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.026436333s  INFO prepare_target{force=false package_id=stdworkspace v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment) target="stdworkspace"}: cargo::core::compiler::fingerprint: fingerprint error for stdworkspace v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment)/Check { test: true }/TargetInner { name: "stdworkspace", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/src/main.rs", Edition2021) }
+   0.026439708s  INFO prepare_target{force=false package_id=stdworkspace v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment) target="stdworkspace"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/stdworkspace-52fd3a34e7d69cd2/test-bin-stdworkspace`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.026606166s  INFO prepare_target{force=false package_id=string v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/string) target="string"}: cargo::core::compiler::fingerprint: fingerprint error for string v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/string)/Check { test: false }/TargetInner { name: "string", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/string/src/main.rs", Edition2021) }
+   0.026609583s  INFO prepare_target{force=false package_id=string v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/string) target="string"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/string-07d5b74211c9f4c8/bin-string`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.026779250s  INFO prepare_target{force=false package_id=string v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/string) target="string"}: cargo::core::compiler::fingerprint: fingerprint error for string v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/string)/Check { test: true }/TargetInner { name: "string", doc: true, ..: with_path("/Users/wakala/IdeaProjects/Projects/rust/rustdocment/string/src/main.rs", Edition2021) }
+   0.026782458s  INFO prepare_target{force=false package_id=string v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/string) target="string"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/wakala/IdeaProjects/Projects/rust/rustdocment/target/debug/.fingerprint/string-368ad9497a44be09/test-bin-string`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+    Checking practices v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/practices)
+    Checking chapters v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/chapters)
+    Checking hello v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello)
+    Checking functionallaguage v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/functionallaguage)
+    Checking hello_ v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/hello_)
+    Checking pointers v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/pointers)
+    Checking minigrep v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/minigrep)
+    Checking collections v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/collections)
+error: could not compile `practices` (bin "lexicographicallySmallestArray") due to 1 previous error; 1 warning emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `practices` (bin "distinctcolor") due to 1 previous error; 2 warnings emitted
+error: could not compile `practices` (bin "lexicographicallySmallestArray" test) due to 1 previous error; 1 warning emitted
+error: could not compile `practices` (bin "minOperation" test) due to 1 previous error; 1 warning emitted
+error: could not compile `practices` (bin "check_powers_of_three") due to 1 previous error
+error: could not compile `practices` (bin "car_repair") due to 1 previous error
+error: could not compile `practices` (bin "FindDifferentBinaryString") due to 1 previous error; 1 warning emitted
+error: could not compile `practices` (bin "cleardigital") due to 1 previous error; 1 warning emitted
+    Checking concurrency v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/concurrency)
+error: could not compile `practices` (bin "countBadPairs") due to 1 previous error; 2 warnings emitted
+error: could not compile `practices` (bin "minOperation") due to 2 previous errors; 1 warning emitted
+    Checking patterns v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/patterns)
+error: could not compile `practices` (bin "apply_operations") due to 1 previous error
+    Checking drop v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/drop)
+    Checking advancefeatures v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/advancefeatures)
+    Checking oop v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/oop)
+    Checking stdworkspace v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment)
+    Checking adder v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/adder)
+    Checking string v0.1.0 (/Users/wakala/IdeaProjects/Projects/rust/rustdocment/string)
